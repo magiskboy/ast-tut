@@ -3,14 +3,14 @@
 Run example code
 
 ```bash
-PYTHONPATH=. python main.py "( 1 + 1 * 2 ) / ( 3 + 5 * 8 - 13 )" yes
+PYTHONPATH=. python bottom_up_parser.py "(1 + 1 * 2) / (3 + 5 * 8 - 13)" yes
 ```
 
 Abstract Syntax Tree
 
 ![](./ast.dot.svg)
 
-MIPS code 
+MIPS code
 
 ```asm
 mov $0 1
